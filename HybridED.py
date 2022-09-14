@@ -1,4 +1,5 @@
 import glob
+import os
 from Crypto.PublicKey import RSA
 from Crypto.Random import get_random_bytes
 from Crypto.Cipher import PKCS1_OAEP
@@ -90,6 +91,9 @@ def decrypt():
 
         #Notify user of decryption
         print("Decrypted " + filename)
+        
+    #Delete AES key
+    os.remove("encryptedData.bin");
 
 userInput = "0"
 while userInput != "3":
