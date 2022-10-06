@@ -1,5 +1,5 @@
 # HybridEncryption
-This Python script combines [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption methods into one to provide a fast and secure hybrid encryption algorithm. It shows how two users would securely transfer files between eachother with an almost non-zero chance of their message being decrypted by an intercepting attacker.
+This Python script combines [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption methods into one to provide a fast and secure hybrid encryption algorithm. It shows how two users would securely transfer files between eachother with an almost zero chance of their message being decrypted by an intercepting attacker.
 
 # Implementation/Scenario
 A user wants to receive files from a sender in a secure way:
